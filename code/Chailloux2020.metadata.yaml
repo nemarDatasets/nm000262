@@ -1,0 +1,84 @@
+_dataset:
+  class: Chailloux2020
+  code: Chailloux2020
+  doi: 10.3390/s20247198
+  interval:
+  - 0
+  - 1
+  n_subjects: 19
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 8
+  ground: AFz
+  hardware: g.USBamp (g.tec)
+  line_freq: 60.0
+  montage: standard_1020
+  n_channels: 8
+  reference: right earlobe
+  sampling_rate: 256.0
+  sensor_type: g.SCARABEO (passive)
+  sensors:
+  - Fz
+  - Cz
+  - P3
+  - Pz
+  - P4
+  - PO7
+  - PO8
+  - Oz
+data_structure:
+  n_trials: varies
+  trials_context: ~198 flashes per block, ~6 blocks per run
+documentation:
+  country: MX
+  data_url: https://openneuro.org/datasets/ds003190
+  doi: 10.3390/s20247198
+  institution: Tecnologico de Monterrey
+  investigators:
+  - J. David Chailloux Peguero
+  - Omar Mendoza-Montoya
+  - Javier M. Antelis
+  license: CC0
+  publication_year: 2020
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: flash / cartoon face
+  study_design: P300 single-option interface; 2 stimulation types (Standard Flash, Cartoon Face); 5 grid sizes (4-9 symbols)
+  trial_duration: 1.0
+file_format: BrainVision
+paradigm_specific:
+  detected_paradigm: p300
+  isi_ms: 75.0
+  soa_ms: 150.0
+participants:
+  age_max: 33
+  age_mean: 25.0
+  age_min: 19
+  gender:
+    female: 8
+    male: 11
+  health_status: healthy
+  n_subjects: 19
+  species: human
+runs_per_session: 7
+sessions_per_subject: 3
+tags:
+  modality:
+  - ERP
+  pathology:
+  - Healthy
+  type:
+  - P300

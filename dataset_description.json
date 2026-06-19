@@ -1,0 +1,37 @@
+{
+    "Name": "Chailloux2020",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC0",
+    "Authors": [
+        "J. David Chailloux Peguero",
+        "Omar Mendoza-Montoya",
+        "Javier M. Antelis"
+    ],
+    "ReferencesAndLinks": [
+        "https://openneuro.org/datasets/ds003190"
+    ],
+    "Keywords": [
+        "Healthy",
+        "ERP",
+        "P300",
+        "p300"
+    ],
+    "DatasetDOI": "doi:10.3390/s20247198",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.5.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.3390/s20247198",
+            "URL": "https://openneuro.org/datasets/ds003190"
+        }
+    ],
+    "PublicationYear": 2020
+}
