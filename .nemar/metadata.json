@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "P300 BCI EEG dataset (Chailloux Peguero et al. 2020)",
+  "description": "A P300 brain-computer interface EEG dataset comprising recordings from 19 healthy participants across 3 sessions each, using a P300 paradigm with visual stimuli (standard flash and cartoon face presentations across 5 grid sizes). The dataset includes 8-channel EEG recordings sampled at 256 Hz with events classified as target and non-target stimuli, designed to evaluate P300-based BCI performance under varying visual stimulation conditions.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 8 passive g.SCARABEO sensors positioned at Fz, Cz, P3, Pz, P4, PO7, PO8, and Oz according to the standard 10-20 montage. Sampling rate was 256 Hz with right earlobe reference and AFz ground. The P300 paradigm employed visual stimuli (standard flash and cartoon face) presented at 150 ms stimulus onset asynchrony with 75 ms inter-stimulus interval. Participants completed 7 runs per session with approximately 198 flashes per block and 6 blocks per run.",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "J. David Chailloux Peguero": {},
     "Omar Mendoza-Montoya": {
@@ -20,6 +25,40 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "ERP"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "visual paradigm"
+    },
+    {
+      "term": "flash paradigm"
+    },
+    {
+      "term": "healthy controls"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.3390/s20247198",
@@ -47,60 +86,21 @@
       "relation_type": "References"
     }
   ],
-  "title": "Chailloux2020",
-  "license": "CC0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "485.8 MB (281 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 19 healthy participants across 3 sessions each. The study investigates how visual stimulation conditions (standard flash vs. cartoon face stimuli) affect P300-BCI performance using an 8-channel montage sampled at 256 Hz. Data were collected using a P300 paradigm with 5 grid sizes (4-9 symbols) and include target and non-target event classifications.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 8 passive g.SCARABEO electrodes positioned at Fz, Cz, P3, Pz, P4, PO7, PO8, and Oz according to the standard 10-20 montage. Sampling rate was 256 Hz with right earlobe reference and AFz ground. Line frequency was 60 Hz. The P300 paradigm employed visual stimulation with two stimulus types (standard flash and cartoon face) across 5 grid sizes (4-9 symbols), with an inter-stimulus interval of 75 ms and stimulus onset asynchrony of 150 ms.",
-  "keywords": [
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "visual stimulation"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "P300 paradigm"
-    },
-    {
-      "term": "cartoon face stimulus"
-    },
-    {
-      "term": "grid-based interface"
-    },
-    {
-      "term": "ERP"
-    },
-    {
-      "term": "healthy"
-    }
-  ],
-  "source_hash": "c5cee22651f46ebe8752155d51e9e91e59709880b1066a5165fd2ad13c9569d7"
+  "source_hash": "9aaf14de29512aba4fff1c5bee98ba6d8e132aae109f350a55a524183281ca57"
 }
