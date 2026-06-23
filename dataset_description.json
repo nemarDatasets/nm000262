@@ -18,7 +18,7 @@
     "P300",
     "p300"
   ],
-  "DatasetDOI": "doi:10.3390/s20247198",
+  "DatasetDOI": "10.82901/nemar.nm000262",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -31,6 +31,9 @@
     {
       "DOI": "10.3390/s20247198",
       "URL": "https://openneuro.org/datasets/ds003190"
+    },
+    {
+      "DOI": "doi:10.3390/s20247198"
     }
   ],
   "PublicationYear": 2020,
