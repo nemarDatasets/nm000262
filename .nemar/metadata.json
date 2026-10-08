@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P300 BCI EEG dataset (Chailloux Peguero et al. 2020)",
-  "description": "A P300 brain-computer interface EEG dataset from 19 healthy participants recorded across 3 sessions each. The study examines how visual stimulation conditions, standard flash versus cartoon face stimuli, affect single-option P300-BCI performance across five grid sizes (4-9 symbols). Recordings use an 8-channel montage sampled at 256 Hz and include target and non-target event labels. This BIDS version was converted via MOABB.",
-  "methods_description": "EEG was acquired with a g.USBamp amplifier (g.tec) and 8 passive g.SCARABEO electrodes at Fz, Cz, P3, Pz, P4, PO7, PO8 and Oz (10-20 system), sampled at 256 Hz with a right earlobe reference and AFz ground. The P300 paradigm used two stimulus types (standard flash and cartoon face) across grid sizes of 4-9 symbols, with a 75 ms inter-stimulus interval and 150 ms stimulus onset asynchrony.",
+  "description": "A P300 brain-computer interface EEG dataset from 19 healthy participants, each recorded across 3 sessions. It examines how visual stimulation conditions, standard flash versus cartoon face stimuli, affect single-option P300-BCI performance across five grid sizes (4-9 symbols). Recordings use an 8-channel montage at 256 Hz with target and non-target event labels.",
+  "methods_description": "EEG was acquired with a g.USBamp amplifier (g.tec) and 8 passive g.SCARABEO electrodes at Fz, Cz, P3, Pz, P4, PO7, PO8 and Oz (10-20 system), sampled at 256 Hz with a right earlobe reference and AFz ground. The visual P300 paradigm used two stimulus types (standard flash and cartoon face) across grid sizes of 4-9 symbols, with a 75 ms inter-stimulus interval and 150 ms stimulus onset asynchrony.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,13 +33,19 @@
       "term": "P300"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "event-related potentials"
     },
     {
       "term": "visual stimulation"
+    },
+    {
+      "term": "Healthy"
     }
   ],
   "related_identifiers": [
@@ -75,5 +81,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "c2a1df54c92da501388c02a1df86216e8a03e814379e41dd444330df407e6b5a"
+  "source_hash": "403b253ad22175b4cd88fe39a66de610a614d7ea870de49a45490cdf87ae3aed"
 }
